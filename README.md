@@ -1,7 +1,4 @@
-# Anime-streaming
+# VHS_ANIME
 
-https://danfelogar.github.io/anime-streaming/
+https://MMartincorena.github.io/VHS_ANIME/
 
-# Link-video-demo-app
-
-[![Alt text](https://img.youtube.com/vi/GOK0_iysMaQ/0.jpg)](https://www.youtube.com/watch?v=GOK0_iysMaQ)
