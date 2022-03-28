@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ahora/static/css/main.96d1f68a.chunk.css",
+    "main.js": "/ahora/static/js/main.67ab0134.chunk.js",
+    "main.js.map": "/ahora/static/js/main.67ab0134.chunk.js.map",
+    "runtime-main.js": "/ahora/static/js/runtime-main.a5842685.js",
+    "runtime-main.js.map": "/ahora/static/js/runtime-main.a5842685.js.map",
+    "static/js/2.4e596986.chunk.js": "/ahora/static/js/2.4e596986.chunk.js",
+    "static/js/2.4e596986.chunk.js.map": "/ahora/static/js/2.4e596986.chunk.js.map",
+    "index.html": "/ahora/index.html",
+    "static/css/main.96d1f68a.chunk.css.map": "/ahora/static/css/main.96d1f68a.chunk.css.map",
+    "static/js/2.4e596986.chunk.js.LICENSE.txt": "/ahora/static/js/2.4e596986.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5842685.js",
+    "static/js/2.4e596986.chunk.js",
+    "static/css/main.96d1f68a.chunk.css",
+    "static/js/main.67ab0134.chunk.js"
+  ]
+}
