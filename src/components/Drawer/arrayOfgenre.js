@@ -1,18 +1,18 @@
 export const arrayOfGenre=[
     {
-        name:"Action",
+        name:"Acción",
         number:1,
     },
     {
-        name:"Adventure",
+        name:"Aventuras",
         number:2,
     },
     {
-        name:"Cars",
+        name:"Autos",
         number:3,
     },
     {
-        name:"Comedy",
+        name:"Comedia",
         number:4,
     },
     {
@@ -20,11 +20,11 @@ export const arrayOfGenre=[
         number:5,
     },
     {
-        name:"Demons",
+        name:"Demonios",
         number:6,
     },
     {
-        name:"Mystery",
+        name:"Misterio",
         number:7,
     },
     {
@@ -36,20 +36,20 @@ export const arrayOfGenre=[
         number:9,
     },
     {
-        name:"Fantasy",
+        name:"Fantasia",
         number:10,
     },
     {
-        name:"Game",
+        name:"Juegos",
         number:11,
     },
 
     {
-        name:"Hentai",
+        name:"Hentai (Picarón)",
         number:12,
     },
     {
-        name:"Historical",
+        name:"Historicos",
         number:13,
     },
     {
@@ -57,11 +57,11 @@ export const arrayOfGenre=[
         number:14,
     },
     {
-        name:"Kids",
+        name:"Infantil",
         number:15,
     },
     {
-        name:"Martial Arts",
+        name:"Artes marciales",
         number:17,
     },
 
@@ -70,11 +70,11 @@ export const arrayOfGenre=[
         number:18,
     },
     {
-        name:"Music",
+        name:"Musica",
         number:19,
     },
     {
-        name:"Parody",
+        name:"Parodia",
         number:20,
     },
 
@@ -87,7 +87,7 @@ export const arrayOfGenre=[
         number:22,
     },
     {
-        name:"School",
+        name:"Escolar",
         number:23,
     },
     {
@@ -99,7 +99,7 @@ export const arrayOfGenre=[
         number:25,
     },
     {
-        name:"Girls Love",
+        name:"Amor de chicas",
         number:26,
     },
     {
@@ -107,11 +107,11 @@ export const arrayOfGenre=[
         number:27,
     },
     {
-        name:"Boys Love",
+        name:"Amor adolescente",
         number:28,
     },
     {
-        name:"Space",
+        name:"Spacio",
         number:29,
     },
     {
@@ -123,7 +123,7 @@ export const arrayOfGenre=[
         number:31,
     },
     {
-        name:"Vampire",
+        name:"Vampiros",
         number:32,
     },
     {
@@ -135,15 +135,15 @@ export const arrayOfGenre=[
         number:36,
     },
     {
-        name:"Supernatural",
+        name:"Super natural",
         number:37,
     },
     {
-        name:"Military",
+        name:"Militar",
         number:28,
     },
     {
-        name:"Police",
+        name:"Policial",
         number:39,
     },
     {
@@ -151,7 +151,7 @@ export const arrayOfGenre=[
         number:40,
     },
     {
-        name:"Suspense",
+        name:"Suspenso",
         number:41,
     },
     {

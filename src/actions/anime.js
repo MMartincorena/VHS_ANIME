@@ -35,9 +35,8 @@ const actGetCharactersStaff = (animeId)=>async(dispatch)=>{
         const  res = await getCharactersStaff(animeId);
         const { characters, staff } = res.data;
 
-        //para limitar la busquedad porque la verdad son muchos xD
-        const charactersLimit= characters.slice(0,40);
-        const staffLimit= staff.slice(0,40);
+        const charactersLimit= characters.slice(0,20);
+        const staffLimit= staff.slice(0,20);
 
         dispatch({
             type: types.getlistCharactersStaff,

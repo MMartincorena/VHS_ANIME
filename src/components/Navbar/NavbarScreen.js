@@ -16,7 +16,7 @@ export const NavbarScreen = () => {
                 onBlur={onMouseLeaveSearch}
 
             type="text"
-            placeholder="Search an anime"
+            placeholder="Buscar"
             name="animeName"
             onChange={handleInputChange}
             value={animeName}

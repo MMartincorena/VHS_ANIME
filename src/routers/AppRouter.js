@@ -11,6 +11,7 @@ import { DrawerScreen } from "../components/Drawer/DrawerScreen";
 import { FavoritesAnime } from "../components/FavoritesAnime/FavoritesAnime";
 
 import { NavbarScreen } from "../components/Navbar/NavbarScreen";
+import { NotFoundScreen } from "../components/NotFound404/NotFoundScreen";
 
 export const AppRouter = () => {
     return (
@@ -24,13 +25,16 @@ export const AppRouter = () => {
                             <Route exact path="/">
                                 <AnimeScreen/>
                             </Route>
-                            <Route exact path="/favoritesList">
+                            <Route exact path="/listaFavoritos">
                                 <FavoritesAnime/>
                             </Route>
                             <Route path="/:id" >
                                 <DetailAnimeScreen/>
                             </Route>
                             <Redirect to="/" />
+                            <Route exact path="*">
+                                <NotFoundScreen/>
+                            </Route>
                         </Switch>
                     </div>
                 </div>

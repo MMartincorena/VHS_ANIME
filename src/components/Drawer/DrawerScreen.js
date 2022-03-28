@@ -1,4 +1,4 @@
-import { faBars, faCrown, faFilm, faHeart, faRunning, faSortDown, faTimesCircle, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCrown, faHeart, faRunning, faSortDown, faTimesCircle, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { useDrawer } from "../../hooks/useDrawer";
@@ -18,33 +18,32 @@ export const DrawerScreen = () => {
                 <Link
                 onClick={()=>handleAnimeList("tv","TV")}
                 to='/' className="navbar-logo">
-                    <FontAwesomeIcon style={{marginRight:"10px"}} icon={faFilm} />
-                    <span>STREAM</span>NIMEX
+                    <span>VHS</span>ANIME
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <FontAwesomeIcon icon={click ? faTimesCircle : faBars} />
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li
-                    onClick={()=>handleAnimeList("upcoming","Upcoming")}
+                    onClick={()=>handleAnimeList("próximamente","Próximamente")}
                     className="nav-item">
                         <Link to='/' className="nav-links" onClick={closeMobileMenu}>
                             <FontAwesomeIcon style={{marginRight:"10px"}}  icon={faRunning} />
-                            Coming Soon
+                            Próximamente
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/favoritesList' className="nav-links" onClick={closeMobileMenu}>
                             <FontAwesomeIcon style={{marginRight:"10px", color:"#e63946"}}  icon={faHeart} />
-                            Favorite Animes
+                            Favoritos
                         </Link>
                     </li>
                     <li
-                    onClick={()=>handleAnimeList("airing","Most Popular")}
+                    onClick={()=>handleAnimeList("airing","Popular")}
                     className="nav-item">
                         <Link to='/' className="nav-links" onClick={closeMobileMenu}>
                             <FontAwesomeIcon style={{marginRight:"10px", color:"#e9c46a"}}  icon={faCrown} />
-                            Most Popular
+                            Populares
                         </Link>
                     </li>
                     <li className="nav-item"
@@ -52,7 +51,7 @@ export const DrawerScreen = () => {
                     onMouseLeave={onMouseLeave}
                     >
                         <div className="nav-links" onClick={closeMobileMenu}>
-                            Genre
+                            Género
                             <FontAwesomeIcon style={{marginLeft:"10px"}}  icon={faSortDown} />
                         </div>
                         {dropdown && <Dropdown/>}
@@ -66,7 +65,7 @@ export const DrawerScreen = () => {
                     <li className="nav-item">
                         <Link to='/' className="nav-links-mobile" onClick={closeMobileMenu}>
                             <FontAwesomeIcon style={{marginRight:"10px"}}  icon={faUser} />
-                            Sign Up
+                            Inscribirse
                         </Link>
                     </li>
                 </ul>
